@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script>
-    var redirectToApp = function() {
-      setTimeout(function appNotInstalled() {
+    const redirectToApp = () => {
+      setTimeout(() => {
         window.location.replace("https://econocheck.com/");
       }, 100);
       window.location.replace("econocheck://links/benefits?name=ITP");
